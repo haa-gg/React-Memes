@@ -1,7 +1,7 @@
 ![alt text](https://github.com/haa-gg/React-Memes/blob/main/screenshots/app-screenshot.png?raw=true)
 # What is this?
 
-It's a mme generator that uses the flipimg API and React to spit up hot, fresh memes.
+It's a meme generator that uses the flipimg API and React to spit up hot, fresh memes.
 
 ## Why?
 
