@@ -10,7 +10,7 @@ Isn't the internet already chock full of meme generators? Yep! The real reason I
 ### How do you make it work if you download it?
 1) Clone the git repo
 2) Go to flipimg.com and sign up 
-3) make a secrets.js file in /src/actions with the following info...
+3) Make a secrets.js file in /src/actions with the following info...
 ```
 const username = 'username';
 const password = 'password';
