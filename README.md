@@ -17,3 +17,10 @@ const password = 'password';
 export {username, password};`
 4) Run `npm start` in the repo
 5) Make some memes!
+
+### How does this work from a React standpoint?
+
+The central point of this app is components/app.js and the components/ reducers all work in relation to that file.
+_Sidenote: Technically /src/index.js might be considered more the central to the app but it's just a large series of import statements that really don't describe what's going on in the greater app_
+
+In the App.js file, I've commented it with everything I thought someone just dipping their toes into React might be curious about
