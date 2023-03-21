@@ -11,10 +11,12 @@ Isn't the internet already chock full of meme generators? Yep! The real reason I
 1) Clone the git repo
 2) Go to flipimg.com and sign up 
 3) make a secrets.js file in /src/actions with the following info...
-```const username = 'username';
+```
+const username = 'username';
 const password = 'password';
 
-export {username, password};```
+export {username, password};
+```
 4) Run `npm start` in the repo
 5) Make some memes!
 
