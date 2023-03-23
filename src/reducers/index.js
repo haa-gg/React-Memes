@@ -24,6 +24,8 @@ function myMemes(state = [], action){
     }
 }
 
+// See Step 4 in the article for a quick explaination of root reducers -- https://www.linkedin.com/pulse/what-redux-rany-elhousieny-phd%E1%B4%AC%E1%B4%AE%E1%B4%B0-1f/
+// It takes our actions and returns a new state (fresh memes on the screen)
 const rootReducer = combineReducers({memes, myMemes});
 
 export default rootReducer;

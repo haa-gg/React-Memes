@@ -1,5 +1,5 @@
 // This file is what saves any memes you make and posts them near the top of our single-page app
-// Basic imports
+// Basic hooks
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
@@ -9,6 +9,8 @@ class MyMemes extends Component {
 return(
     <div>
         {
+            // If you want a quick refresher on props, here's a link https://www.w3schools.com/react/react_props.asp
+            // Props really are what they sound like, they're just properties you apply to your components
             this.props.myMemes.map((meme,index) => {
                 return (
                     <img 
@@ -33,4 +35,5 @@ function mapStateToProps(state){
 }
 
 // This states that it's okay to pass data back to the state
+// Export refrence https://www.w3schools.com/react/react_es6_modules.asp
 export default connect(mapStateToProps, null)(MyMemes)

@@ -1,6 +1,6 @@
-// This file holds the basic meme templates what our app loads 10 of in App.js right off the bat
+// This file holds the basic meme templates that our app loads 10 of (it has 100 stashed in its state though) in App.js right off the bat
 
-// Basic imports
+// Basic hooks
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 // Pulls in the createMeme function from index.js in the actions folder
@@ -52,4 +52,5 @@ class MemeItem extends Component {
 };
 
 // This section is saying any part of our app is allowed to access the data created in this component
+// Doc for reference: https://www.w3schools.com/react/react_es6_modules.asp
 export default connect(null, {createMeme})(MemeItem);

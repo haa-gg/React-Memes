@@ -48,4 +48,4 @@ Put a little more technically, it's a way to control scope or what bits of an ap
 
 **Reducers:** See index.js in our reducers file to see the specific actions. In broader terms reducers are what pass changes in the app such as a newly entered meme back into the main app section (e.g. Store)
 
-**Store:** Defined in /src/index.js and this is the part of the app that actually holds submitted memes
+**Store:** Defined in /src/index.js and this is the part of the app that actually holds submitted memes (state)

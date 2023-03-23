@@ -1,5 +1,5 @@
 // This file is the main spot where the action happens, individual components are pulled into here and rendered in this single-page app!
-// Stock React imports...
+// Stock React imports (hooks)...
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import '../styles/index.css';
@@ -9,7 +9,8 @@ import { Form, FormGroup, FormControl, FormLabel } from 'react-bootstrap';
 // Import the meme components
 import MemeItem from './MemeItem';
 import MyMemes from './MyMemes';
-  
+
+// App is given access to everything Component does and adds a few additional properties
 class App extends Component {
     constructor() {
         super();
@@ -79,4 +80,6 @@ function mapStateToProps(state){
     return state;
 }
 
+// This states other parts of the app have access to these functions/ variables
+// Ref: https://www.w3schools.com/react/react_es6_modules.asp
 export default connect(mapStateToProps, null)(App);
