@@ -2,7 +2,7 @@
 // Get our top secret user info
 import {username, password} from './secrets';
 
-// Defining global variables
+// Defining global (can be used wherever by default) variables
 export const RECIEVE_MEMES = 'RECIEVE_MEMES';
 export const NEW_MEME = 'NEW_MEME';
 

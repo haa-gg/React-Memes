@@ -24,10 +24,12 @@ return(
     }
 }
 
+// Sends your latest submitted meme to the State which in turn displays it in the app
 function mapStateToProps(state){
     return{
         myMemes:state.myMemes
     }
 }
 
+// This states that it's okay to pass data back to the state
 export default connect(mapStateToProps, null)(MyMemes)

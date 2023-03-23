@@ -1,6 +1,6 @@
 // This file holds the stuff to make a meme from the user input back in App.js
 
-// basic imports
+// Basic imports
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 // Pulls in the createMeme function from index.js in the actions folder
