@@ -1,7 +1,13 @@
+// This file holds the stuff to make a meme from the user input back in App.js
+
+// basic imports
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
+// Pulls in the createMeme function from index.js in the actions folder
+// See the bottom of index.js to see what precisely this does 
 import { createMeme } from '../actions';
 
+// Sets inital meme hovered state to false
 class MemeItem extends Component {
     constructor() {
         super();
@@ -12,6 +18,7 @@ class MemeItem extends Component {
 
     }
 
+    // This segment is where we set up our POST to imgflip with our desired meme text
     postMeme(){
         console.log('this.props', this.props);
         const {text0, text1} = this.props;
@@ -22,6 +29,8 @@ class MemeItem extends Component {
         }
         this.props.createMeme(memeObj);
     }
+
+    // This section spits out the meme templates beneath where you enter your desired meme text
     render(){
         return(
             <div className="meme-item"
@@ -42,4 +51,5 @@ class MemeItem extends Component {
     }
 };
 
+// This section is saying any part of our app is allowed to access the data created in this component
 export default connect(null, {createMeme})(MemeItem);

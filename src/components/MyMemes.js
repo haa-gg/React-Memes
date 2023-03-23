@@ -1,3 +1,5 @@
+// This file is what saves any memes you make
+// Basic imports
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 

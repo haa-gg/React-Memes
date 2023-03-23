@@ -1,3 +1,4 @@
+// This file is the main spot where the action happens, individual components are pulled into here and rendered in this single-page app!
 // Stock React imports...
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
@@ -73,7 +74,7 @@ class App extends Component {
 // What does this section do?
 // This is where you what parts of the app can pass info to the others (scope and scale)
 // In this case it's making the whole state available (this includes that very last line)
-// cool discussion on the topic here: https://stackoverflow.com/questions/38202572/understanding-react-redux-and-mapstatetoprops
+// Cool discussion on the topic here: https://stackoverflow.com/questions/38202572/understanding-react-redux-and-mapstatetoprops
 function mapStateToProps(state){
     return state;
 }
