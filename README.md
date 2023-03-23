@@ -5,7 +5,7 @@ It's a meme generator that uses the flipimg API and React to spit up hot, fresh 
 
 ## Why?
 
-Isn't the internet already chock full of meme generators? Yep! The real reason I built this was it made sense as something to build to see how apps, components and states all work together.
+Isn't the internet already chock full of meme generators? Yep! The real reason I built this was to help me understand and document actions, states, and components so the code is ultra-thoroughly documented.
 
 ### How do you make it work if you download it?
 
@@ -48,4 +48,4 @@ Put a little more technically, it's a way to control scope or what bits of an ap
 
 **Reducers:** See index.js in our reducers file to see the specific actions. In broader terms reducers are what pass changes in the app such as a newly entered meme back into the main app section (e.g. Store)
 
-**Store:** Defined in /src/index.js and this is the part of the app that actually holds submitted memes (state)
+**Store:** Defined in /src/index.js and this is the part of the app that actually holds submitted memes and our meme template array (state)

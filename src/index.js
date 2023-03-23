@@ -21,7 +21,7 @@ import thunk from 'redux-thunk';
 // Pulls in the fetch memes action from src/actions/index.js
 import {fetchMemes} from './actions';
 
-// This is us setting up the store where state is sset
+// This is us setting up the store where state is set
 const store = createStore(rootReducer, applyMiddleware(thunk));
 store.subscribe(() => console.log('store', store.getState()));
 // Here's a good article on what dispatch does: https://dev.to/dustinmyers/what-even-is-a-dispatch-function-27ma

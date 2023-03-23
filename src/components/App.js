@@ -11,10 +11,12 @@ import MemeItem from './MemeItem';
 import MyMemes from './MyMemes';
 
 // App is given access to everything Component does and adds a few additional properties
+// More detail here: https://www.w3schools.com/react/react_class.asp and scroll down to component constructor...
+// ... if you want to know why constructor() and super() are there
 class App extends Component {
     constructor() {
         super();
-// Setting initial variable values, in this case 10 memes per query, top text is blank and bottom text is blank
+// Setting initial prop values, in this case 10 memes per query, top text is blank and bottom text is blank
         this.state = {
             memeLimit: 10,
             text0: '',
