@@ -1,4 +1,4 @@
-// This file holds the stuff to make a meme from the user input back in App.js
+// This file holds the basic meme templates what our app loads 10 of in App.js right off the bat
 
 // Basic imports
 import React, {Component} from 'react';
@@ -18,7 +18,7 @@ class MemeItem extends Component {
 
     }
 
-    // This segment is where we set up our POST to imgflip with our desired meme text
+    // This segment is where we set up our POST data to imgflip with our desired meme text
     postMeme(){
         console.log('this.props', this.props);
         const {text0, text1} = this.props;

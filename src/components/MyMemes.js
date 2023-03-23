@@ -1,8 +1,9 @@
-// This file is what saves any memes you make
+// This file is what saves any memes you make and posts them near the top of our single-page app
 // Basic imports
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
+// Here's the actual meme HTML that will be posted in the app
 class MyMemes extends Component {
     render() {
 return(
