@@ -28,6 +28,8 @@ _Sidenote: Technically /src/index.js might be considered more the central to the
 
 In the App.js file, I've commented it with everything I thought someone just dipping their toes into React might be curious about
 
+Bundler used: Webpack
+
 #### Quick rundown on redux
 
 Quick video link: https://youtu.be/YsEE6LIkqrI
