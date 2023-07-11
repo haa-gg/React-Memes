@@ -7,6 +7,9 @@ It's a meme generator that uses the flipimg API and React to spit up hot, fresh 
 
 Isn't the internet already chock full of meme generators? Yep! The real reason I built this was to help me understand and document actions, states, and components so the code is ultra-thoroughly documented.
 
+## See it in action!
+https://haa-gg.github.io/React-Memes/
+
 ### How do you make it work if you download it?
 
 1) Clone the git repo
@@ -18,7 +21,7 @@ const password = 'password';
 
 export {username, password};
 ```
-4) Run `npm start` in the repo
+4) Run `npm install` then `npm start` in the repo
 5) Make some memes!
 
 ### How does this work from a React standpoint?
